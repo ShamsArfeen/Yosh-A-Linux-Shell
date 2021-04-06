@@ -1,0 +1,11 @@
+
+jobs - Provides a list of all background processes and their local IDs.
+
+cd [PATHNAME] - Sets the PATHNAME as working directory.
+
+history - Prints the list of previously executed commands.
+
+kill %[NUM] - Terminates the background process identified with NUM in the jobs list.
+
+help - Prints this help message.
+
