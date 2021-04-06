@@ -14,7 +14,7 @@ OR
 
 ## Features
 * Multiple pipes support in single cmd, example ``/path/to/directory> ls | grep -i ".txt" | sort``
-* I/O redirection, example ``/path/to/directory> wc < WORDS.txt > COUNT.txt``
+* I/O redirection using (<) and (>) signs followed by filename, example ``/path/to/directory> wc < WORDS.txt > COUNT.txt``
 * Background execution of cmd using ampersand (&) in the end, example ``/path/to/directory> sort < words.txt > sorted_words.txt &``
 
 ### Builtin Commands
